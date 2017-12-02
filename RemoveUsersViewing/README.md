@@ -4,11 +4,11 @@ An update in September 2014 added "x users viewing" below the topic view count w
 
 ## Preview
 
-** Original **
+**Original**
 
 ![Before](https://github.com/KeirSimmons/ZetaBoards/blob/master/RemoveUsersViewing/before.png)
 
-** Modified **
+**Modified**
 
 ![After](https://github.com/KeirSimmons/ZetaBoards/blob/master/RemoveUsersViewing/after.png)
 
