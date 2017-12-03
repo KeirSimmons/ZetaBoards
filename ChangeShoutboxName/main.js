@@ -3,4 +3,4 @@ Open-source, free to use. Find more modifications at https://github.com/KeirSimm
 Modification: Change Shoutbox Name
 */
 
-$("#sbx h2").text("title here");
+$("#sbx h2").text("New Title");
