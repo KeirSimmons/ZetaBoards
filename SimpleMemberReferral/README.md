@@ -10,19 +10,19 @@ Caveat: The group which a new member is put in must have PM privileges and be ab
 
 **Registration Page - New Field**
 
-![Before](https://github.com/KeirSimmons/ZetaBoards/blob/master/SimpleMemberReferral/reg_page_1.png)
+![Before](./Preview/reg_page_1.png)
 
 **Registration Page - Unknown User**
 
-![Before](https://github.com/KeirSimmons/ZetaBoards/blob/master/SimpleMemberReferral/reg_page_2.png)
+![Before](./Preview/reg_page_2.png)
 
 **Registration Page - Known User**
 
-![Before](https://github.com/KeirSimmons/ZetaBoards/blob/master/SimpleMemberReferral/reg_page_3.png)
+![Before](./Preview/reg_page_3.png)
 
 **Inbox - PM to Chosen User**
 
-![Before](https://github.com/KeirSimmons/ZetaBoards/blob/master/SimpleMemberReferral/pm.png)
+![Before](./Preview/pm.png)
 
 ## Installation Instructions
 
