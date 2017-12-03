@@ -1,6 +1,6 @@
 /*
 Open-source, free to use. Find more modifications at https://github.com/KeirSimmons/ZetaBoards
-Modification: Remove "Users Viewing" from forum view
+Modification: Delete All Shouts
 */
 
 var shout_del = {
