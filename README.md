@@ -2,9 +2,9 @@
 
 ## Introduction
 
-All modifications here are 100% open-source and free to use. These were created by me for the ZetaBoards forum community between 2007-2014 period both as a member and volunteer on the "Code Team".
+All modifications here are 100% open-source and free to use. These were created by me for the ZetaBoards forum community between 2007-2014 period both as a member and volunteer on the "Code Team". As such, much of the 'style' of modifications is quite rudimentary, owing to the fact a lot of these were built during my first exposure to programming languages and I was still experimenting with JavaScript at this time. In addition to this, a lot of this was created in the pre-"web 2.0, CSS 3, HTML 5, git"-era back when making sure code was compatible with Internet Explorer 6.0+ was crucial. I will not be updating any of the code to match current standards (unless broken) - that is not the point of this repository. Rather, I wanted to keep all of my old modifications in one place to allow those who use ZetaBoards to find everything in one place, and for nostalgic reasons. If you have come across this repo with the intent of seeing some of my newer code, please check out my other repos, which I am slowly but surely populating.
 
-Over this period, I created 100+ modifications and I will be slowly porting these to GitHub over time.
+There are a lot of modifications that I need to port over to GitHub (list given below), so please bare with me whilst I work through this.
 
 ## Installation Instructions
 
