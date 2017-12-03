@@ -17,14 +17,15 @@ var aff = {
 		[5,0,'left',true], // settings: [speed,hoverspeed,direction,random]
 		['http://google.com','http://dynamo.viralsmods.com/images/aff2.gif'], // copy and paste this line for more affiliates (last topsite should NOT have a comma at the end)
 		['http://google.com','http://dynamo.viralsmods.com/images/aff2.gif'] // << no comma!
-	], /* STOP EDITING HERE!!! */
+	],
+	/* STOP EDITING HERE!!! */
 	topsite : function(){
 		var topsites = this.topsites;
 		var content = topsites[0][0] == 0 ? '' : '<marquee scrollamount="'+topsites[0][0]+'" onmouseover="this.setAttribute(\'scrollamount\','+topsites[0][1]+',0);" onmouseout="this.setAttribute(\'scrollamount\','+topsites[0][0]+',0);" direction="'+topsites[0][2]+'">';
 		var end = topsites == 0 ? '' : '</marquee>';
 		if(topsites[0][3] === true) {
-      topsites.sort(this.mix);
-    }
+			topsites.sort(this.mix);
+		}
 		var tL = topsites.length;
 		var target = this.newwindow === true ? 'target="_blank"' : 'target="_self"';
 		while(tL--){
@@ -37,8 +38,8 @@ var aff = {
 		var content = affiliates[0][0] == 0 ? '' : '<marquee scrollamount="'+affiliates[0][0]+'" onmouseover="this.setAttribute(\'scrollamount\','+affiliates[0][1]+',0);" onmouseout="this.setAttribute(\'scrollamount\','+affiliates[0][0]+',0);" direction="'+affiliates[0][2]+'">';
 		var end = affiliates[0][0] == 0 ? '' : '</marquee>';
 		if(affiliates[0][3] === true) {
-      affiliates.sort(this.mix);
-    }
+			affiliates.sort(this.mix);
+		}
 		var aL = affiliates.length;
 		var target = this.newwindow === true ? 'target="_blank"' : 'target="_self"';
 		while(aL--){
