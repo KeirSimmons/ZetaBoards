@@ -84,9 +84,7 @@ Below is a list of modifications that have not yet been ported, but will be.
 43. [Member Specific Posting Tags](http://support.zathyus.com/topic/5001868/1/#new)
 44. [Size Tag v1.0](http://support.zathyus.com/topic/5001867/1/#new)
 45. [zbAiO Original Theme](http://support.viralsmods.com/topic/5807587/1/)
-46. [Top 'x' Statistics & Feeds](http://support.viralsmods.com/topic/5648719/)
-47. [Flexible Pokemon BB Codes with Tooltips](http://support.viralsmods.com/topic/5727480/)
-48. [Edit/ Delete all Posts & Topics by User](http://support.viralsmods.com/topic/5598297/)
+46. [Flexible Pokemon BB Codes with Tooltips](http://support.viralsmods.com/topic/5727480/)
 
 \*Requires Zetaboards Dynamo to function.
 
