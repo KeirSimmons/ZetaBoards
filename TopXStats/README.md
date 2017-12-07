@@ -47,7 +47,7 @@ Finally, you can also move the table from the top of the page to the bottom of t
 
 As you can see, Admins have a lot of control over the default settings of the table - its position, whether its collapsed/ expanded, which modules to show and hide (or even disable). Admins can also change the titles of all sections (and their sub-sections), the loading text, refresh text, title and even how many rows should be shown. For example, you could set the title to "Top 10 Statistics" and tell the table to show 10 rows of data instead of 5.
 
-[b]Information: [/b]This is the only working "Top 'x' Statistics" code available for ZetaBoards now after a recent update caused all similar codes to stop working. The code has also been set up to add extra modules for different statistics and feeds. This option is there for developers to maximise the usefulness of this modification.
+This is the only working "Top 'x' Statistics" code available for ZetaBoards now after a recent update caused all similar codes to stop working. The code has also been set up to add extra modules for different statistics and feeds. This option is there for developers to maximise the usefulness of this modification. This was originally a premium modification, and is now being offered for free in my "everything should be open-source" movement :) .
 
 **Ad-credits**: This code consumes ad-credits and should be avoided on forums which have purchased ad-removal. Hopefully this can be fixed in the future (simply adding `force_ads` as a parameter to the AJAX requests is sufficient, but I have no time to test). Feel free to fork and make the changes yourself if you can.
 
