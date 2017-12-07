@@ -118,13 +118,13 @@ var post_delete = {
 				if ($("#findposts td a", e).size()) {
 					$("#findposts td a", e).each(function() {
 						if (/&month=\d+&year=\d+$/.test($(this).attr("href"))) {
-							post_delete.months.ids[post_delete.months.ids.length] = $(this).attr("href")
+							post_delete.months.ids[post_delete.months.ids.length] = $(this).attr("href") + "&force_ads"
 						}
 					});
 					post_delete.months.number = post_delete.months.ids.length;
 					post_delete.find()
 				} else {
-					post_delete.months.ids[0] = main_url + "search/?c=2&mid=" + post_delete.zbid;
+					post_delete.months.ids[0] = main_url + "search/?force_ads&c=2&mid=" + post_delete.zbid;
 					post_delete.months.number = 1;
 					post_delete.find()
 				}
@@ -135,8 +135,6 @@ var post_delete = {
 		if (post_delete.months.ids.length) {
 			var e = post_delete.months.ids[0];
 			post_delete.months.ids = post_delete.months.ids.splice(1, post_delete.months.ids.length);
-      console.log("111", e);
-      return true;
 			$.get(e, function(t) {
 				if (post_delete.no_errors(t)) {
 					if (/\/search\/\?/.test(e) && $("ul.cat-pages", t).size()) {
@@ -176,9 +174,7 @@ var post_delete = {
 			if (post_delete.unclassified_posts.ids.length) {
 				var e = post_delete.unclassified_posts.ids[0];
 				post_delete.unclassified_posts.ids = post_delete.unclassified_posts.ids.splice(1, post_delete.unclassified_posts.ids.length);
-        console.log("222", main_url + "topic/" + e[1] + "/findpost/" + e[0])
-        return true;
-				$.get(main_url + "topic/" + e[1] + "/findpost/" + e[0], function(t) {
+				$.get(main_url + "topic/" + e[1] + "/findpost/" + e[0] + "?force_ads", function(t) {
 					if (post_delete.no_errors(t)) {
 						if (/post\-(\d+)/.test($("tr[id^=post-]:first", t).attr("id"))) {
 							if (RegExp.$1 == e[0]) {
@@ -206,9 +202,7 @@ var post_delete = {
 			if (post_delete.unclassified_topics.ids.length) {
 				var e = post_delete.unclassified_topics.ids[0];
 				post_delete.unclassified_topics.ids = post_delete.unclassified_topics.ids.splice(1, post_delete.unclassified_topics.ids.length);
-        console.log("333", main_url + "topic/" + e[1] + "/findpost/" + e[0])
-        return true;
-				$.get(main_url + "topic/" + e[1] + "/findpost/" + e[0], function(t) {
+				$.get(main_url + "topic/" + e[1] + "/findpost/" + e[0] + "?force_ads", function(t) {
 					if (post_delete.no_errors(t)) {
 						if ($("tr[id^=post-", t).size() > 1) {
 							post_delete.topics.ids[post_delete.topics.ids.length] = e
@@ -347,9 +341,7 @@ var post_delete = {
 		},
 		empty_topics: {
 			remove: function(e, t, n, r) {
-        console.log("444", main_url + "topic/" + t)
-        return true;
-				$.get(main_url + "topic/" + t, function(e) {
+				$.get(main_url + "topic/" + t + "?force_ads", function(e) {
 					if (post_delete.no_errors(e)) {
 						var t = $("select[name=modopts_menu] option[value=4]", e).prop("selected", true).closest("form").serialize();
 						var n = $("select[name=modopts_menu]", e).closest("form").attr("action");
@@ -389,7 +381,7 @@ var post_delete = {
 			remove: function(e, t, n, r) {
         console.log("555", main_url + "topic/" + t)
         return true;
-				$.get(main_url + "topic/" + t, function(e) {
+				$.get(main_url + "topic/" + t + "?force_ads", function(e) {
 					if (post_delete.no_errors(e)) {
 						var t = $("select[name=modopts_menu] option[value=4]", e).prop("selected", true).closest("form").serialize();
 						var n = $("select[name=modopts_menu]", e).closest("form").attr("action");
