@@ -1,0 +1,2 @@
+main/core.js
+-checking for `data.info.notification_count` in `callback` as this is not present for error #6 (produces a TypeError) - 8/3/15

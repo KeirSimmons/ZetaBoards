@@ -1,0 +1,10 @@
+sub_holder = $("<div>").addClass("dynamo_menu_holder");
+	$("<div>").addClass("dynamo_menu_header dynamo_level_acp").text(dynamo.server.modules.level.name).data({load : "level", m : "level", p1 : "acp"}).appendTo(sub_holder);
+	sub_tab_holder = $("<div>").addClass("dynamo_tab_holder");
+		$("<div>").addClass("dynamo_tab dynamo_level_acp_main").text("Main Settings").data({p2 : "main", c : "form"}).appendTo(sub_tab_holder);
+		$("<div>").addClass("dynamo_tab dynamo_level_acp_progression").text("Progression Settings").data({p2 : "progression", c : "form"}).appendTo(sub_tab_holder);
+		$("<div>").addClass("dynamo_tab dynamo_level_acp_post").text(dynamo.server.modules.level.settings.exp_name + " per Post").data({p2 : "post", c : "groups"}).appendTo(sub_tab_holder);
+		$("<div>").addClass("dynamo_tab dynamo_level_acp_user").text("Edit User").data({p2 : "user", c : "search"}).appendTo(sub_tab_holder);
+		$("<div>").addClass("dynamo_tab dynamo_level_acp_reset").text("Reset").data({p2 : "reset", c : "confirm"}).appendTo(sub_tab_holder);
+	sub_tab_holder.appendTo(sub_holder);
+sub_holder.appendTo(tab_holder);

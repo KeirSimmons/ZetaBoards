@@ -1,0 +1,12 @@
+Steps to creating a new module:
+
+1) Choose a module id
+2) Insert into `modules` table
+3) Module settings go into `module_settings` table, and user-specific settings go in `user_settings` table
+4) Create a directory called module_id under modules
+5) Create a core.js
+6) Create a menu.js
+7) Create a menu_acp.js (optional)
+8) Create a core.php for core functions (must create a class called module_id) (optional)
+9) Create a events.php for attaching events (must create a class "module_id"_events and implement iEvent) (optional)
+10) Create a profile.php for adding profile info (must create a class "module_id"_profile and implement iProfile) (optional)

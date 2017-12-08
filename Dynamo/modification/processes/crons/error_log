@@ -1,0 +1,18 @@
+[06-Apr-2016 12:00:02 America/Chicago] PHP Fatal error:  Class 'mysqli' not found in /home/viralsmo/public_html/dynamo/main/database.class.php on line 28
+[07-Apr-2016 00:00:02 America/Chicago] PHP Fatal error:  Class 'mysqli' not found in /home/viralsmo/public_html/dynamo/main/database.class.php on line 28
+[29-Jan-2017 17:00:02 UTC] PHP Notice:  Undefined variable: mysqli in /home/viralsmo/public_html/dynamo/main/database.class.php on line 29
+[29-Jan-2017 17:00:02 UTC] PHP Notice:  Trying to get property of non-object in /home/viralsmo/public_html/dynamo/main/database.class.php on line 29
+[29-Jan-2017 17:00:02 UTC] PHP Notice:  Undefined index: cb in /home/viralsmo/public_html/dynamo/main/database.class.php on line 33
+[29-Jan-2017 17:00:02 UTC] PHP Notice:  Undefined index: developer in /home/viralsmo/public_html/dynamo/main/database.class.php on line 37
+[30-Jan-2017 05:00:04 UTC] PHP Notice:  Undefined variable: mysqli in /home/viralsmo/public_html/dynamo/main/database.class.php on line 29
+[30-Jan-2017 05:00:04 UTC] PHP Notice:  Trying to get property of non-object in /home/viralsmo/public_html/dynamo/main/database.class.php on line 29
+[30-Jan-2017 05:00:04 UTC] PHP Notice:  Undefined index: cb in /home/viralsmo/public_html/dynamo/main/database.class.php on line 33
+[30-Jan-2017 05:00:04 UTC] PHP Notice:  Undefined index: developer in /home/viralsmo/public_html/dynamo/main/database.class.php on line 37
+[30-Jan-2017 17:00:03 UTC] PHP Notice:  Undefined variable: mysqli in /home/viralsmo/public_html/dynamo/main/database.class.php on line 29
+[30-Jan-2017 17:00:03 UTC] PHP Notice:  Trying to get property of non-object in /home/viralsmo/public_html/dynamo/main/database.class.php on line 29
+[30-Jan-2017 17:00:03 UTC] PHP Notice:  Undefined index: cb in /home/viralsmo/public_html/dynamo/main/database.class.php on line 33
+[30-Jan-2017 17:00:03 UTC] PHP Notice:  Undefined index: developer in /home/viralsmo/public_html/dynamo/main/database.class.php on line 37
+[31-Jan-2017 05:00:05 UTC] PHP Notice:  Undefined variable: mysqli in /home/viralsmo/public_html/dynamo/main/database.class.php on line 29
+[31-Jan-2017 05:00:05 UTC] PHP Notice:  Trying to get property of non-object in /home/viralsmo/public_html/dynamo/main/database.class.php on line 29
+[31-Jan-2017 05:00:05 UTC] PHP Notice:  Undefined index: cb in /home/viralsmo/public_html/dynamo/main/database.class.php on line 33
+[31-Jan-2017 05:00:05 UTC] PHP Notice:  Undefined index: developer in /home/viralsmo/public_html/dynamo/main/database.class.php on line 37
